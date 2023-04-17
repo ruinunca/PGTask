@@ -1,0 +1,12 @@
+tqdm
+tensorboard
+pandas
+matplotlib
+nltk
+torch==1.12.1 
+transformers
+torchvision
+pytorch-lightning
+wandb
+datasets>=2.6.1
+evaluate
