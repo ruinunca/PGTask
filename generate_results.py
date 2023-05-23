@@ -217,15 +217,16 @@ def main():
 
     test_dataset = read_json(args.test_file_path)
 
-    """
     def create_input(turn_sentence):
         input_text = f"{turn_sentence} {GEN_TOKEN}"
         return input_text
+    
     """
     def create_input(turn_sentence):
         """For non-finetuned GPT-2"""
         input_text = f"{turn_sentence}"
         return input_text
+    """
     
     eos_token_id = tokenizer.convert_tokens_to_ids(tokenizer.eos_token)
     print(f"EOS id: {eos_token_id}")
