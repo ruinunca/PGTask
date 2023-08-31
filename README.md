@@ -1,7 +1,7 @@
 # PGTask: Introducing the Task of Profile Generation from Dialogues
 
 In this project, we build a Profile Generation model for the Profile Generation Task (PGTask).
-We train a model in the [Profile Generation Dataset (PGD)](tinyurl.com/PGDataset) dataset, which is based in the `Persona-Chat` dataset.
+We train a model in the [Profile Generation Dataset (PGD)](https://tinyurl.com/PGDataset) dataset, which is based in the `Persona-Chat` dataset.
 
 **PGTask: Introducing the Task of Profile Generation from Dialogues**. [[paper]](https://arxiv.org/abs/2304.06634)
 
