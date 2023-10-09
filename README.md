@@ -3,11 +3,25 @@
 In this project, we build a Profile Generation model for the Profile Generation Task (PGTask).
 We train a model in the [Profile Generation Dataset (PGD)](https://tinyurl.com/PGDataset) dataset, which is based in the `Persona-Chat` dataset.
 
-**PGTask: Introducing the Task of Profile Generation from Dialogues**. [[paper]](https://arxiv.org/abs/2304.06634)
+**PGTask: Introducing the Task of Profile Generation from Dialogues**. [[paper]](https://aclanthology.org/2023.sigdial-1.17/)
 
 ## Citation
 If you find PGTask useful in your work, please cite the following paper:
 ```
+@inproceedings{ribeiro-etal-2023-pgtask,
+    title = "{PGT}ask: Introducing the Task of Profile Generation from Dialogues",
+    author = "Ribeiro, Rui  and
+      Carvalho, Joao Paulo  and
+      Coheur, Luisa",
+    booktitle = "Proceedings of the 24th Meeting of the Special Interest Group on Discourse and Dialogue",
+    month = sep,
+    year = "2023",
+    address = "Prague, Czechia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.sigdial-1.17",
+    pages = "183--189",
+}
+
 @article{ribeiro2023pgtask,
       title={PGTask: Introducing the Task of Profile Generation from Dialogues}, 
       author={Rui Ribeiro and Joao P. Carvalho and Luísa Coheur},
